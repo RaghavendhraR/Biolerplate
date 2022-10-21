@@ -1,0 +1,66 @@
+.main-banner {
+    /* background-image: url(../images/cc.png); */
+    width: 98%;
+    height: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-color: yellow; */
+    /* background-image: linear-gradient(to bottom, rgba(13, 93, 115, 0.963),rgba(16, 63, 29, 0.5)),url(../images/cc.png); */
+    background-image: radial-gradient(circle closest-side,green,yellow,blue);
+}
+
+.Heading {
+    text-align: center;
+    text-shadow: 2px 2px green;
+    text-decoration-line: overline;
+    text-decoration-style:solid ;
+    text-decoration-color:violet ;
+}
+.Flex-container {
+    display: flex;
+    width: 70%;
+    /* background-color: blueviolet; */
+    justify-content: space-around;
+    /* flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 400px; */
+    margin: auto;
+    margin-top: 20px;
+}
+.card-heading {
+    font-weight: 700;
+    color:darkgreen;
+    letter-spacing: 0.6px;
+}
+.Flex-Price {
+    width: 40%;
+    /* border:; */
+    text-align:center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: greenyellow;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    /* border-top-left-radius: 30px; */
+    box-shadow: 2px 2px 10px solid greenyellow inset, -2px -2px -10px solid greenyellow;
+}
+.btn-card {
+    width: 120px;
+    height: 35px;
+    border: 0px;
+    color: white;
+    background-color:palevioletred;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    box-shadow: 2px 2px 4px gainsboro;
+    cursor: pointer;
+}
+.btn-card:hover {
+    background-color: rgb(255, 127, 127);
+}
+.btn-card:active{
+    transform:scale(1.05, 1.05)
+}

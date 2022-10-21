@@ -1,0 +1,16 @@
+html {
+    font-size: 64px;
+}
+/* body {
+    font-size: 32px;
+} */
+.heading-container {
+    font-size: 32px;
+}
+.size-heading{
+    font-size: 1em;
+    width: 1em;
+    margin-top: 1em;
+    background-color: green;
+
+}
