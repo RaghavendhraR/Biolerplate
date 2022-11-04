@@ -129,10 +129,10 @@
     display: flex;
     justify-content: relative;
 }
-.not-show {
+/* .not-show {
     filter: blur(6px);
     -webkit-filter: blur(6px);
-}
+} */
 .pop-up {
     position: absolute;
     top: 38%;
